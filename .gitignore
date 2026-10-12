@@ -1,0 +1,19 @@
+# Bitrix backup archives & dumps
+*.enc.gz*
+*.tar.gz*
+*.enc
+*.tar
+*.sql
+*.gz
+
+# Bitrix standard restore script & debug
+restore.php
+restore.debug
+
+# Extracted files directory
+extracted/
+/out/
+
+# OS metadata
+.DS_Store
+Thumbs.db
